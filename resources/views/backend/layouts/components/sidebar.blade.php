@@ -13,6 +13,47 @@
                 <x-coreui-icon class="nav-icon" icon="cil-speedometer" />
                 Dashboard<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
 
+        <li class="nav-title">CRM</li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+
+                <x-coreui-icon class="nav-icon" icon="cil-user" />
+                Companies </a>
+            <ul class="nav-group-items">
+                <li class="nav-item"><a class="nav-link" href="{{ route('backend.companies.list') }}">
+
+                        <x-coreui-icon class="nav-icon" icon="cil-list" />
+
+                        All Companies</a></li>
+			
+		<li class="nav-item"><a class="nav-link" href="{{ route('backend.companies.add') }}">
+
+                        <x-coreui-icon class="nav-icon" icon="cil-list" />
+
+                        All Companies</a></li>
+
+            </ul>
+        </li>
+	
+	<li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+
+                <x-coreui-icon class="nav-icon" icon="cil-user" />
+                Contacts </a>
+            <ul class="nav-group-items">
+                <li class="nav-item"><a class="nav-link" href="">
+
+                        <x-coreui-icon class="nav-icon" icon="cil-list" />
+
+                        All Contacts</a></li>
+			
+		<li class="nav-item"><a class="nav-link" href="">
+
+                        <x-coreui-icon class="nav-icon" icon="cil-plus" />
+
+                        Add new contact</a></li>
+
+            </ul>
+        </li>
+
         <li class="nav-title">Profile Management</li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
 
